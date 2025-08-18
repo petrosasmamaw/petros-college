@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Navbar from "./components/navbar"
 import Hero from "./components/hero"
 import Programs from './components/programs'
@@ -8,8 +8,12 @@ import Campus from './components/campus'
 import Testimonials from './components/testimonials'
 import Contact from './components/contact'
 import Footer from './components/footer'
+import Videoplayer from './components/videoplayer'
 
 const App= ()=>{
+
+const [playVideo, setPlayVideo] = useState(false);
+
 return  (  
     <div>
       <Navbar />
@@ -17,7 +21,7 @@ return  (
       <div className="container">
       <Title subTitle='Our Program' title='What we offer'/>
       <Programs />
-      <About />
+      <About setPlayVideo={setPlayVideo} />
       <Title subTitle='Gallery' title='Campus Photos'/>
       <Campus />
       <Title subTitle='Testimonials' title='What our students say'/>
@@ -26,6 +30,7 @@ return  (
       <Contact />
       <Footer />
       </div>
+      <Videoplayer playVideo={playVideo} setPlayVideo={setPlayVideo} />
     </div>
 )
 }

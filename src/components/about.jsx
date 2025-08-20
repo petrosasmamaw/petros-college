@@ -19,13 +19,13 @@ const About = ({setPlayVideo}) => {
             skills, and experience needed to excel in the dynamic field of
              education.
           </p>
-          <p>With a focus innovation, hands on learning , and personaliszed
-            mentorship, our programs prepare aspiring educators to make a 
+          <p>With a focus on innovation, hands-on learning, and personalised mentorship
+            , our programs prepare aspiring educators to make a
             meaningful impact in the classroom and beyond. Join us in shaping
           </p>
-          <p>Whether you aspire to become a teacher , administrator,
-            counselor, or education leader, our university offers a wide range of Programs
-            offers the perfect pathway to achieve your goals and unlockm your 
+          <p>Whether you aspire to become a teacher, administrator,
+            counselor, or education leader, our university offers a wide range of programs
+            that provide the perfect pathway to achieve your goals and unlock your
             full potential in shaping the future of education
           </p>
         </div>

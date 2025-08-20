@@ -57,7 +57,7 @@ const Contact = () => {
             <input type="tel" name='phone' placeholder='enter your phone number' required/>
             <label >write your message</label>
             <textarea name="message" rows="6"  placeholder='enter your message ' required></textarea>
-            <button type='submit' className='btn dark-btn'>sumit now <img src={white_arrow} alt="" /></button>
+            <button type='submit' className='btn dark-btn'>submit now <img src={white_arrow} alt="" /></button>
         </form>
         <span>{result}</span>
        </div>
